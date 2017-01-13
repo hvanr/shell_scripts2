@@ -1,1 +1,1 @@
-head -n 15 "$1" | tail -n "$2"
+head -n "$3" "$1" | tail -n "$2"
